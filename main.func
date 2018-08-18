@@ -5,3 +5,10 @@ main()
 exit 0;
 }
 
+sub-func(){
+
+echo "sub-func"
+}
+
+main $@
+
